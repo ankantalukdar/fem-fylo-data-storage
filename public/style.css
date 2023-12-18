@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 /*
 ! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
 */
@@ -440,7 +442,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -490,7 +492,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -540,36 +542,236 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
+  }
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-10{
+  margin-right: 2.5rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-4{
+  height: 1rem;
+}
+
+.w-2\/5{
+  width: 40%;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.min-w-full{
+  min-width: 100%;
+}
+
+.max-w-5xl{
+  max-width: 64rem;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.rounded-tr-4xl{
+  border-top-right-radius: 7rem;
+}
+
+.bg-priamry_blue-300{
+  --tw-bg-opacity: 1;
+  background-color: hsl(228 56% 26% / var(--tw-bg-opacity));
+}
+
+.bg-priamry_blue-400{
+  --tw-bg-opacity: 1;
+  background-color: hsl(229 57% 11% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.p-20{
+  padding: 5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.pr-36{
+  padding-right: 9rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.font-primary{
+  font-family: Raleway;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.text-priamry_blue-100{
+  --tw-text-opacity: 1;
+  color: hsl(243 100% 93% / var(--tw-text-opacity));
+}
+
+.text-priamry_blue-200{
+  --tw-text-opacity: 1;
+  color: hsl(229 7% 55% / var(--tw-text-opacity));
+}
+
+.text-priamry_blue-400{
+  --tw-text-opacity: 1;
+  color: hsl(229 57% 11% / var(--tw-text-opacity));
+}
+
+body {
+  background-image: url(../public/images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
+.data-badge {
+  position: relative;
+  top: -13rem;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1024px){
+  .lg\:flex-row{
+    flex-direction: row;
   }
 }
